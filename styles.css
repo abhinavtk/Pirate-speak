@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
 
+
 :root {
-    --primary-color: black;
-    --off-white: #E5E7EB;
+        --primary-color: #10B981;
+        --dark-gray: #9CA3AF;
+        --off-white: #E5E7EB;
+}
+    
 }
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -41,12 +45,12 @@ body {
 /* Header */
 
 .hero {
-    padding: 2rem;
-    background-color: rgb(255, 255, 255);    ;
-    border: 1rem;
-    width: 100%;
-    margin: 1rem;
-}
+
+    background-color: var(--primary-color) ;
+    color: white;
+    text-align: center;
+    padding: 1rem 0rem;
+    border-bottom-left-radius: 1rem;
 
 /* .hero .hero-img {
     max-width: 350px;
